@@ -39,6 +39,66 @@ let friendCollection = [
     'trait' : 'can ride a bike',
     'image' : 'jeff.JPG'
   },
+  {
+    'name' : 'Ziynou',
+    'home' : 'New York',
+    'trait' : 'is one of my first friends in Tandon',
+    'image' : 'ziynou.JPG'
+  },
+  {
+    'name' : 'Jesse',
+    'home' : 'New York',
+    'trait' : 'builds computers',
+    'image' : 'jesse.JPG'
+  },
+  {
+    'name' : 'Sadvhi',
+    'home' : 'India',
+    'trait' : 'her eyeliner is always clean',
+    'image' : 'sadvhi.JPG'
+  },
+  {
+    'name' : 'Niharika',
+    'home' : 'Atlanta',
+    'trait' : 'loves Tacobell',
+    'image' : 'niharika.JPG'
+  },
+  {
+    'name' : 'Darwin',
+    'home' : 'Bronx',
+    'trait' : 'is one of my first friends in Civil',
+    'image' : 'darwin.JPG'
+  },
+  {
+    'name' : 'Saimul',
+    'home' : 'New York',
+    'trait' : 'is one of my first friends in Civil',
+    'image' : 'saimul.JPG'
+  },
+  {
+    'name' : 'Joan',
+    'home' : 'New York',
+    'trait' : 'is my first school coworker',
+    'image' : 'joan.JPG'
+  },
+  {
+    'name' : 'Skye',
+    'home' : 'Michigan',
+    'trait' : 'has a cute haircut',
+    'image' : 'skye.JPG'
+  },
+  {
+    'name' : 'Kemi',
+    'home' : 'New York',
+    'trait' : 'her favorite apple is the Mcintosh',
+    'image' : 'kemi.JPG'
+  },
+  {
+    'name' : 'Jessica',
+    'home' : 'New York',
+    'trait' : 'is the nicest person at Tandon',
+    'image' : 'jessica.JPG'
+  },
 ];
 
 document.addEventListener('DOMContentLoaded', function(){
