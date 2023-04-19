@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 3vw;
+  font-size: 2vw;
+}
+
+#mainContainer {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  height: 100%;
+}
+
+#nav {
+  flex: 1;
+  display: border-box;
+  justify-content: space-around;
+  border-radius: 5px;
+  margin-right: 3vw;
+  background-color: rgb(181, 172, 181);
+
+}
+
+.navLink, .navLink:visited {
+  color: rgb(74, 72, 74);
+  font-size: 3rem;
+  font-weight: 600;
+  text-decoration: none;
+  line-height: 80px;
+  top: 30px;
+  left: 30px;
+  position: relative;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.navLink:hover {
+  background-color: rgb(255, 255, 255);
+  padding: 5px 5px;
+}
+
+#contentBox {
+  flex: 3.5;
+  border-radius: 5px;
+  background-color: rgb(207, 180, 212);
+  text-align: center;
+  padding: 30px
+}
+
+h1#pageTitle {
+  color: rgb(78, 29, 87);
+  margin-bottom: 30px;
+}
+
+#outputGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5vw;
+  justify-content: center;
+  align-items: stretch;
+}
+
+#outputGrid>a, #outputGrid>a:visited {
+  color: rgb(78, 29, 87);
+  text-decoration: none;
+  border: 5px solid rgba(0,0,0,0.1);
+  padding: 1.25vw;
+  transition: background-color 0.25s;
+  border-radius: 3px;
+}
+
+#outputGrid>a:hover {
+  background-color: rgba(255,0,225, 0.1);
+}
+
+.previewTitle {
+  font-weight: bold;
+  margin-bottom: 1.25vw;
+}
+
+.thumbnail {
+  width: 100%;
+  height: calc(width);
+  border-radius: 3px;
+  display: flex;
+}
+
+.mainImage {
+  height: 70vh;
+  object-fit: cover;
+  border-radius: 5px;
+  flex: 1;
+}
+
+.trait {
+  flex: 2;
+  font-size: 3vw;
+  align-items:center;
+  justify-content:center;
+  color: rgb(78, 29, 87);
+  padding: 30px;
+}
